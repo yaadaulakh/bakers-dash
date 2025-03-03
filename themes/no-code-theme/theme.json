@@ -18,6 +18,11 @@
 					"name": "Base"
 				},
 				{
+					"slug": "grey",
+					"color": "#fff",
+					"name": "other"
+				},
+				{
 					"slug": "white",
 					"color": "#f0f0f0",
 					"name": "Contrast"
@@ -32,6 +37,7 @@
 					"color": "#733E07",
 					"name": "Secondary"
 				}
+				
 			]
 		},
 		"layout": {
