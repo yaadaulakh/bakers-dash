@@ -15,3 +15,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Generated on fullsiteediting.com. No code version.
 */
+
+.wpcf7-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+.wpcf7-form input,
+.wpcf7-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.wpcf7-form input[type="submit"] {
+  background: #0073aa;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
