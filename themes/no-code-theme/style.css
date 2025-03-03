@@ -18,7 +18,7 @@ Generated on fullsiteediting.com. No code version.
 
 .wpcf7-form {
   max-width: 600px;
-  margin: 0 auto;
+  margin-left: 10px;
   padding: 20px;
   background: #f9f9f9;
   border-radius: 8px;
@@ -36,4 +36,8 @@ Generated on fullsiteediting.com. No code version.
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+.wp-block-wpforms-form-selector {
+  margin: 20px;
 }
