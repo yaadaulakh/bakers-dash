@@ -2,7 +2,7 @@
 // Query to fetch 6 latest recipes
 $args = array(
     'post_type'      => 'recipe', // Use the "recipe" custom post type
-    'posts_per_page' => 6,        // Show 6 recipes
+    'posts_per_page' => 3,        // Show 3 recipes
     'orderby'        => 'date',   // Order by date
     'order'          => 'DESC',   // Newest first
 );
