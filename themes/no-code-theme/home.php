@@ -3,8 +3,8 @@
 $args = array(
     'post_type'      => 'recipe', // Use the "recipe" custom post type
     'posts_per_page' => 3,        // Show 3 recipes
-    'orderby'        => 'date',   
-    'order'          => 'DESC',   
+    'orderby'        => 'date',   // Order by date
+    'order'          => 'DESC',   // Newest first
 );
 
 $query = new WP_Query($args); 
