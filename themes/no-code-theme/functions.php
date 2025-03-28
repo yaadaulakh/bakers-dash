@@ -24,6 +24,7 @@ function create_recipe_post_type() {
         'rewrite'            => array('slug' => 'recipes'),
         'supports'           => array('title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
         'menu_icon'          => 'dashicons-carrot', // Use a relevant icon
+        'show_in_rest'       => true, // Enable Gutenberg support
     );
 
     register_post_type('recipe', $args);
